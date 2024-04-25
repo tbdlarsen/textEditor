@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+
         <title>TB's text Editor</title>
         <script src="main.js"></script>
         <link rel="stylesheet" href="style.css" >
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 
 
     </head>
     <body>
-        <main>
-            <h1>The start of the text editor</h1>  
+        <main>  
+            <!--header with text editing buttons -->
+            <div class="text-header">
+
+                <!--bold button-->
+                <button type="button" class="btn" id="bold-btn">
+                    <i class="fa fa-bold"></i>
+                </button>
+
+                <!--italics button-->
+                <button type="button" class="btn" id="italic-btn">
+                    <i class="fa fa-italic"></i>
+                </button>
+
+                <!--underline button-->
+                <button type="button" class="btn" id="underline-btn">
+                    <i class="fa fa-underline"></i>
+                </button>
+
+
+
+
+
+            </div>
 
             
             <textarea id = "text-input" rows ="4" cols="50">
-                
             </textarea>
 
 
